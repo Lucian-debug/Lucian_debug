@@ -1,6 +1,7 @@
 function alegere() {
   let opt = document.getElementById("platforma").value;
   let button = document.getElementById("redirectButton");
+  let p = document.getElementById("bun");
 
   button.style.display = "none";
 
@@ -12,6 +13,7 @@ function alegere() {
       window.location.href = "https://www.instagram.com/lu391n";
     };
   } else if (opt === "E-mail") {
+    p.textContent = "E-mail:lucianrujan97@gmail.com";
     button.textContent = "E-mail";
     button.className = "button button-email";
     button.style.display = "inline-block";
