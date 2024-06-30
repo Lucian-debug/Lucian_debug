@@ -6,6 +6,7 @@ function alegere() {
   button.style.display = "none";
 
   if (opt === "Instagram") {
+    p.style.display = "none";
     button.textContent = "Instagram";
     button.className = "button button-instagram";
     button.style.display = "inline-block";
@@ -14,6 +15,7 @@ function alegere() {
     };
   } else if (opt === "E-mail") {
     p.textContent = "E-mail:lucianrujan97@gmail.com";
+    p.style.display = "flex";
     button.textContent = "E-mail";
     button.className = "button button-email";
     button.style.display = "inline-block";
@@ -22,6 +24,7 @@ function alegere() {
         "https://mail.google.com/mail/u/0/#inbox?compose=new";
     };
   } else if (opt === "Facebook") {
+    p.style.display = "none";
     button.textContent = "Facebook";
     button.className = "button button-facebook";
     button.style.display = "inline-block";
