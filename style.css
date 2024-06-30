@@ -10,6 +10,8 @@ body{
 #redirectButton {
   display: none; 
   margin: 10px;
+  width: auto;
+  height: auto;
 }
 .button-instagram {
   background: linear-gradient(to right, #f9ce34,  #ee2a7b,  #6228d7);
@@ -40,4 +42,6 @@ body{
 #platforma{
   background-color: #303030;
   color: white;
+  width: auto;
+  height: auto;
 }
