@@ -9,7 +9,7 @@ body{
 
 #redirectButton {
   display: none; 
-  margin: 10px;
+  margin: 1vh;
   width: auto;
   height: auto;
 }
@@ -24,24 +24,24 @@ body{
 }
 .button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 1vh 2vh;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
   border: none;
-  border-radius: 25px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 2.5vh;
+  box-shadow: 0vh 0.8vh 1.5vh rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 .button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-0.3vh);
+  box-shadow: 0vh 1.2vh 2vh rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 
 #platforma{
-  background-color: #303030;
-  color: white;
   width: auto;
   height: auto;
+  background-color: #303030;
+  color: white;
 }
