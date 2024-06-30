@@ -49,6 +49,7 @@ body{
 #bun{
   background: linear-gradient(to right, #ff4b2b, #ff416c);
   width: 30vh;
-  height: 3vh;
+  height: 2.2vh;
+  text-align: center;
   margin: auto;
 }
