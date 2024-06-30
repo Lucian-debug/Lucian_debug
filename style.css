@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(76, 175, 80, 1) 50%, rgba(7, 58, 187, 1) 100%);
+}
+.center{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+#redirectButton {
+  display: none; 
+  margin: 10px;
+}
+.button-instagram {
+  background: linear-gradient(to right, #f9ce34,  #ee2a7b,  #6228d7);
+}
+.button-email {
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+}
+.button-facebook {
+  background: linear-gradient(to right, #004ff9,  #000000);
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+#platforma{
+  background-color: #303030;
+  color: white;
+}
