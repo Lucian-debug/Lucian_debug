@@ -17,7 +17,7 @@ function alegere() {
     button.style.display = "inline-block";
     button.onclick = function () {
       window.location.href =
-        "https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlLXKRlpQbbMrxVhKFhSwDfQJlJbGZprLhBkmpxfSmsxvkNzFMBqpTlCqlHQZLTgWjhcxq";
+        "https://mail.google.com/mail/u/0/#inbox?compose=new";
     };
   } else if (opt === "Facebook") {
     button.textContent = "Facebook";
